@@ -5,8 +5,8 @@ This project can be used to scrape **major events**(in terms of population) in C
 
 ## Code Example
 ```
-scraper = EventScraper("http://xyz.com")#Datasource should have a corresponding element,id to scrape from in EventScraper.py.web_elems
-event_list = sorted(scraper.scrape(), key = lambda x: x.date_time)#Return a list of sorted events by date_time
+scraper = EventScraper("http://xyz.com")
+event_list = sorted(scraper.scrape(), key = lambda x: x.date_time)#List of sorted events
 ```
 
 ## Tests
